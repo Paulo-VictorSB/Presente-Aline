@@ -7,35 +7,48 @@
 }
 
 body {
-    background-color: rgb(70, 70, 70);
+    background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgb(26, 26, 26));
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 100vh;
 }
 
 .container {
-    margin-top: 100px;
     display: flex;
     flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
     text-align: center;
-    background-color: white;
+    background-color: black;
+    color: white;
+    padding: 10px 0px;
     max-width: 481px;
+    box-shadow: 3px 3px 3px 1px rgba(206, 206, 206, 0.438);
 }
 
 article{
     font-family: 'Dancing Script', cursive;
-    width: 50%;
-    margin-left: 50%;
-    margin-top: 5px;
+    margin-top: 10px;
+    display: flex;
+    flex-flow: row-reverse;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
 }
 
 article p {
-    color: rgb(59, 59, 59);
+    font-size: small;
     font-weight: lighter;
     font-style: italic;
+    width: 50%;
 }
 
 .p-article{
-    color: black;
+    font-weight: bold;
+    width: 50%;
+    margin-left: 135px;
+    font-size: small;
 }
+
 
