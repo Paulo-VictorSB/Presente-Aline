@@ -7,11 +7,10 @@
 }
 
 body {
-    background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgb(26, 26, 26));
+    background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgb(17, 17, 17));
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
 }
 
 .container {
@@ -22,9 +21,8 @@ body {
     text-align: center;
     background-color: black;
     color: white;
-    padding: 10px 0px;
+    padding: 10px 0px 30px 0px;
     max-width: 481px;
-    box-shadow: 3px 3px 3px 1px rgba(206, 206, 206, 0.438);
 }
 
 article{
@@ -51,4 +49,80 @@ article p {
     font-size: small;
 }
 
+.declaracao{
+    width: 80%;
+    margin-top: 20px;
+}
 
+.container img {
+    margin-top: 10px;
+}
+
+.container-img {
+    margin-top: 10px;
+}
+
+.container-img img:first-child{
+    transform: rotate(-7deg);
+    margin-left: 30px;
+    position: relative;
+    z-index: 1;
+}
+
+.container-img img:last-child{
+    transform: rotate(5deg);
+    margin-right: 30px;
+}
+
+h3{
+    background-color: #e8122456;
+    padding: 10px;
+}
+
+.carousel {
+    position: relative;
+    width: 200px;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.carousel-images {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-images img {
+    width: 200px;
+    object-fit: cover;
+}
+
+.carousel-buttons {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+}
+
+.carousel-buttons button {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.carousel-buttons button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+h2 {
+    margin-top: 20px;
+}
+
+#audio {
+    display: none;
+}
