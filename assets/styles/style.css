@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+
+body {
+    background-color: rgb(70, 70, 70);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    margin-top: 100px;
+    display: flex;
+    flex-flow: column nowrap;
+    text-align: center;
+    background-color: white;
+    max-width: 481px;
+}
+
+article{
+    font-family: 'Dancing Script', cursive;
+    width: 50%;
+    margin-left: 50%;
+    margin-top: 5px;
+}
+
+article p {
+    color: rgb(59, 59, 59);
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.p-article{
+    color: black;
+}
+
